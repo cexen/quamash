@@ -41,7 +41,7 @@ def _fileobj_to_fd(fileobj):
 	return fd
 
 
-class _SelectorMapping(collections.Mapping):
+class _SelectorMapping(collections.abc.Mapping):
 
 	"""Mapping of file objects to selector keys."""
 
